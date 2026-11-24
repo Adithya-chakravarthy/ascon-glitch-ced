@@ -1,15 +1,16 @@
-# Concurrent error detection for Ascon under clock glitches
+# Concurrent Error Detection for Ascon Under Clock Glitches
+
+[![DOI](https://zenodo.org/badge/1469944760.svg)](https://doi.org/10.5281/zenodo.24495687)
 
 RTL, scripts and raw measurement data for the letter
 
-> ADITHYA C, "Concurrent Error Detection for Ascon Under Clock Glitches:
-> FPGA Measurements and a Pipelined Parity Checker," submitted to *IEEE Embedded Systems
-> Letters*, 2026.
+> ADITHYA C, "Concurrent Error Detection for Ascon Under Clock Glitches,"
+> submitted to *IEEE Embedded Systems Letters*, 2026.
 
 A round-based Ascon-AEAD128 core runs on a Digilent Cmod A7-35T (Artix-7, XC7A35T-1).
-An MMCM-based clock generator shortens one chosen initialization round to 2.89-3.69 ns,
-a carry-chain TDC measures every shortened cycle, and the full 320-bit state is read
-back after the glitched round. Since we know exactly which state bits flipped, we can
+An MMCM-based clock generator shortens the clock cycle of one chosen initialization round
+to 2.89-3.69 ns, a carry-chain TDC measures every shortened cycle, and the full 320-bit
+state is read back after the glitched round. Since we know exactly which state bits flipped, we can
 tell for every fault whether a checker's code covers it and compare that with the alarm
 the checker actually raised on the board.
 
