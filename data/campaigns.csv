@@ -1,0 +1,25 @@
+campaign_file,build,configuration,strategy,same_placement_as_default,reported_in,glitches,faulty_states,missed_faults,glitched_without_state_fault,alarms_without_state_fault,clean_file,clean_encryptions,clean_alarms
+glitch/campaignA_v0_20261123_153952.jsonl,v0,Unprotected core (no checker),default,,"Sec. V-A (characterization, not in the 84 000)",3000,1707,,1293,,,,
+glitch/campaignB_v0_20261123_154303.jsonl,v0,Unprotected core (no checker),default,,"Sec. V-A (characterization, not in the 84 000)",3000,1708,,1292,,,,
+glitch/pilot_v0_20261123_152648.jsonl,v0,Unprotected core (no checker),default,,"Sec. V-A (characterization, not in the 84 000)",1000,508,,492,,,,
+glitch/v1_sbox_v1_20261123_182920.jsonl,v1_sbox,S-box parity (1 bit per S-box),default,,Table I,4000,1668,149,2332,339,glitch/clean_v1_sbox_v1_20261123_182715.jsonl,2000,0
+glitch/v2_rpar_v2_20261123_181318.jsonl,v2_rpar,Global parity,default,,Table I,4000,2072,643,1928,32,glitch/clean_v2_rpar_v2_20261123_180931.jsonl,2000,0
+glitch/v3_fix24_p2_v3_20261123_183702.jsonl,v3_fix24_p2,"24 lowest-slack bits, pipelined, reselected from own timing",default,,Sec. V-C,4000,2908,63,1092,28,glitch/clean_v3_fix24_p2_v3_20261123_183507.jsonl,2000,0
+glitch/v3_i16c_s2_v3_20261123_203842.jsonl,v3_i16c_s2,"Group parity k=16, pipelined prediction",Performance_Explore,yes,Sec. V-D (repeat of k=16),4000,3388,0,612,339,glitch/clean_v3_i16c_s2_v3_20261123_203700.jsonl,2000,0
+glitch/v3_i16c_s3_v3_20261123_205721.jsonl,v3_i16c_s3,"Group parity k=16, pipelined prediction",Area_Explore,no,Sec. V-D (second placement),4000,3673,2,327,96,glitch/clean_v3_i16c_s3_v3_20261123_205527.jsonl,2000,0
+glitch/v3_i16c_v3_20261123_191905.jsonl,v3_i16c,"Group parity k=16, pipelined prediction",default,,Table I,4000,3378,0,622,340,glitch/clean_v3_i16c_v3_20261123_191713.jsonl,2000,0
+glitch/v3_i32_v3_20261123_172910.jsonl,v3_i32,"32-group parity, conventional prediction",default,,Sec. V-C (first of two runs),4000,3116,17,884,672,glitch/clean_v3_i32_v3_20261123_172708.jsonl,2000,0
+glitch/v3_i32_v3_20261123_175522.jsonl,v3_i32,"32-group parity, conventional prediction",default,,Table I (second of two runs),4000,3111,17,889,677,glitch/clean_v3_i32_v3_20261123_175203.jsonl,2000,0
+glitch/v3_i32c_v3_20261123_184343.jsonl,v3_i32c,"Group parity k=32, pipelined prediction",default,,Table I,4000,2975,2,1025,53,glitch/clean_v3_i32c_v3_20261123_184156.jsonl,2000,0
+glitch/v3_i64c_v3_20261123_192544.jsonl,v3_i64c,"Group parity k=64, pipelined prediction",default,,Table I,4000,3105,0,895,161,glitch/clean_v3_i64c_v3_20261123_192356.jsonl,2000,0
+glitch/v3_i8c_v3_20261123_191153.jsonl,v3_i8c,"Group parity k=8, pipelined prediction",default,,Table I,4000,2974,4,1026,413,glitch/clean_v3_i8c_v3_20261123_191004.jsonl,2000,0
+glitch/v3_sta24_v3_20261123_171457.jsonl,v3_sta24,Exact check of the 24 lowest-slack bits + 1 parity bit,default,,Sec. V-C,4000,2346,112,1654,694,glitch/clean_v3_sta24_v3_20261123_171307.jsonl,2000,0
+glitch/v3_sta32_v3_20261123_182233.jsonl,v3_sta32,Exact check of the 32 lowest-slack bits + 1 parity bit,default,,Sec. V-C,4000,2139,108,1861,76,glitch/clean_v3_sta32_v3_20261123_182020.jsonl,2000,0
+glitch/v4_dup_v4_20261123_180410.jsonl,v4_dup,Duplication,default,,Table I,4000,3416,0,584,0,glitch/clean_v4_dup_v4_20261123_180130.jsonl,2000,0
+glitch/v5_sbox2_s2_v5_20261123_203246.jsonl,v5_sbox2_s2,S-box interleaved parity (2 bits per S-box),Performance_Explore,yes,not reported (same placement as default),4000,2913,4,1087,1036,glitch/clean_v5_sbox2_s2_v5_20261123_203048.jsonl,2000,0
+glitch/v5_sbox2_s3_v5_20261123_205055.jsonl,v5_sbox2_s3,S-box interleaved parity (2 bits per S-box),Area_Explore,no,not reported,4000,2862,4,1138,1063,glitch/clean_v5_sbox2_s3_v5_20261123_204911.jsonl,2000,0
+glitch/v5_sbox2_v5_20261123_193907.jsonl,v5_sbox2,S-box interleaved parity (2 bits per S-box),default,,Table I,4000,2908,4,1092,1040,glitch/clean_v5_sbox2_v5_20261123_193658.jsonl,2000,0
+glitch/v6_crc3_s2_v6_20261123_202633.jsonl,v6_crc3_s2,S-box CRC-3,Performance_Explore,yes,not reported (same placement as default),4000,1833,0,2167,2167,glitch/clean_v6_crc3_s2_v6_20261123_202225.jsonl,2000,0
+glitch/v6_crc3_s3_v6_20261123_204440.jsonl,v6_crc3_s3,S-box CRC-3,Area_Explore,no,Sec. V-B (second placement),4000,2397,0,1603,1603,glitch/clean_v6_crc3_s3_v6_20261123_204255.jsonl,2000,0
+glitch/v6_crc3_v6_20261123_194539.jsonl,v6_crc3,S-box CRC-3,default,,Table I,4000,1831,0,2169,2169,glitch/clean_v6_crc3_v6_20261123_194346.jsonl,2000,0
+glitch/v7_crc3r_v7_20261123_201810.jsonl,v7_crc3r,"S-box CRC-3, registered comparison",default,,Table I,4000,2340,1483,1660,0,glitch/clean_v7_crc3r_v7_20261123_201624.jsonl,2000,0
