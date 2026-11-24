@@ -24,6 +24,7 @@ vivado/        project creation, builds and programming (Tcl)
 scripts/       campaign tool, checker generator, analysis (Python)
 data/
   glitch/      raw campaign logs, one JSON line per encryption
+  campaigns.csv  one row per campaign: configuration, placement, trial counts
   sta/         per-bit setup slack of every build
   groups/      parity groups of the group-parity builds
   cost.csv     LUT/FF counts and WNS reported by Vivado
