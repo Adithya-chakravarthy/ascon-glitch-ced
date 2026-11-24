@@ -1,0 +1,34 @@
+fault_model,detector,faults,coverage_pct
+SBU (1 output bit stuck-at-0),sbox1,20000,100.0
+SBU (1 output bit stuck-at-0),sbox2,20000,100.0
+SBU (1 output bit stuck-at-0),sbox3,20000,100.0
+SBU (1 output bit stuck-at-0),dup,20000,100.0
+SBU (1 output bit stuck-at-0),par_k1,20000,100.0
+SBU (1 output bit stuck-at-0),par_k8,20000,100.0
+SBU (1 output bit stuck-at-0),par_k16,20000,100.0
+SBU (1 output bit stuck-at-0),par_k32,20000,100.0
+SBU (1 output bit stuck-at-0),par_k64,20000,100.0
+SBU (1 output bit stuck-at-0),sta_sel24,20000,100.0
+SBU (1 output bit stuck-at-0),sta_sel32,20000,100.0
+MBU in one S-box (2-5 bits),sbox1,20000,56.345
+MBU in one S-box (2-5 bits),sbox2,20000,81.44
+MBU in one S-box (2-5 bits),sbox3,20000,94.955
+MBU in one S-box (2-5 bits),dup,20000,100.0
+MBU in one S-box (2-5 bits),par_k1,20000,56.345
+MBU in one S-box (2-5 bits),par_k8,20000,100.0
+MBU in one S-box (2-5 bits),par_k16,20000,100.0
+MBU in one S-box (2-5 bits),par_k32,20000,100.0
+MBU in one S-box (2-5 bits),par_k64,20000,100.0
+MBU in one S-box (2-5 bits),sta_sel24,20000,71.555
+MBU in one S-box (2-5 bits),sta_sel32,20000,73.62
+MBU anywhere (2-8 bits),sbox1,20000,99.65
+MBU anywhere (2-8 bits),sbox2,20000,99.87
+MBU anywhere (2-8 bits),sbox3,20000,100.0
+MBU anywhere (2-8 bits),dup,20000,100.0
+MBU anywhere (2-8 bits),par_k1,20000,53.63
+MBU anywhere (2-8 bits),par_k8,20000,98.66
+MBU anywhere (2-8 bits),par_k16,20000,99.76
+MBU anywhere (2-8 bits),par_k32,20000,99.92
+MBU anywhere (2-8 bits),par_k64,20000,100.0
+MBU anywhere (2-8 bits),sta_sel24,20000,71.325
+MBU anywhere (2-8 bits),sta_sel32,20000,73.375
